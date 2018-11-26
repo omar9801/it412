@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>IT Governance IT412</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+.w3-sidebar {
+  z-index: 3;
+  width: 250px;
+  top: 43px;
+  bottom: 0;
+  height: inherit;
+}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+    <a class="w3-bar-item">End User Device Policy</a>
+  </div>
+</div>
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
+    <i class="fa fa-remove"></i>
+  </a>
+  <h4 class="w3-bar-item"><b>POLICY CONTENTS</b></h4>
+  <a class="w3-bar-item w3-button w3-hover-black" >Scope</a>
+<a class="w3-bar-item w3-button w3-hover-black" >Policy Statement</a>
+  
+  <a class="w3-bar-item w3-button w3-hover-black" >Reason for Policy</a>
+  <a class="w3-bar-item w3-button w3-hover-black">Definitions</a>
+
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+<div class="w3-main" style="margin-left:250px">
+
+  <div class="w3-row w3-padding-64">
+
+  
+  </div>
+
+  <div class="w3-row">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">Scope</h1>
+      <p>The policy applies to all employees, temporary employees, students, contractors, and
+consultants, and applies to all desktop devices, mobile devices, and shared devices,
+whether the devices are stand-alone or connected to the campus data network.</p>
+    </div>
+
+  </div>
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">Policy	Statement</h1>
+      <p> <b >Software on Devices</b>
+      		<br>
+			All devices must have a legally licensed and currently supported operating system.
+			Exceptions must be approved by the Assistant Vice Chancellor for Information
+			Technology. 
+			<br><br>
+			Users can utilize any legally licensed software or app that helps accomplish business or
+			academic goals. Software or apps cannot be installed or utilized unless the user explicitly
+			trusts the source and knows a legal license exists. 
+			<br><br>
+			Software license documentation must be retained to get technical support, qualify for
+			upgrade discounts, and verify the legal validity of the licenses. 
+			<br><br>
+			Employees must comply with software vendor license agreements and copyright holders’
+			notices. Making unauthorized copies of licensed and copyrighted software, even for
+			evaluation purposes, is strictly forbidden. 
+			<br><br>
+			Vendor updates and patches for operating systems, software and apps must be installed
+			on end-user devices, unless an exemption is granted by the Assistant Vice Chancellor for
+			Information Technology.
+			<br><br>
+			Some classifications of software are expressly forbidden for security reasons. In general,
+			users cannot utilize software that intercepts data they are not intended to see, interrupts
+			the flow of data, modifies data they do not have permission to modify, jeopardizes the
+			integrity of information technology resources, or fabricates any information. Exemptions
+			must be granted by the Assistant Vice Chancellor for Information Technology for the
+			following: 
+			<br>
+				<ul>
+  					<li>Spyware is software that is used to gather sensitive information or to test for
+					weaknesses in systems. It includes, but is not limited to, packet sniffers, port
+					scanners, password cracking tools, key loggers, and vulnerability testers. ITSapproved
+					spyware detection/removal software must be installed on all universityowned
+					devices, if such software is available for the device. </li>
+  					<li>Malicious code, including viruses, worms, Trojan horses, and backdoors, is
+					software that performs an unintended, and often unseen task when executed by an
+					unsuspecting user. ITS-approved antivirus software must be installed on all
+					university-owned devices, if such software is available for the device. Antivirus
+					software must run when the device is turned on. It must be installed to
+					automatically update at least weekly. </li>
+  					<li>Peer-to-peer file sharing software is used to share files with users over the
+					network/Internet. Examples include Kazaa, Gnutella, Aimster, and BitTorrent.
+					These applications are commonly used to illegally distribute copyrighted material.</li>
+   					<li>Security bypass software is used to circumvent security mechanisms, like
+					GoToMyPC and dsniff.
+					 </li>
+    				<li>Remote control software is used to remotely control or administer a system from
+					another system and includes terminal services, PC Anywhere, and Back Orifice.
+					(PCAnywhere is allowed when utilized through a VPN.) </li>
+     				<li>Network management software is used to gather information from and to control
+					network equipment. Only Information Technology Services staff is allowed to use
+					network management software. </li>
+     				<li>Ping sweeps are used to find devices that are active and being used. Port scans
+					search for open ports that can be used to breach a network. This includes, but is
+					not limited to, generic sweep, strobe, stealth, FTP bounce, Fragmented packet,
+					SIN, FIN, TCP and UDP scans</li>
+				</ul>
+			<br>
+				Information Technology Services staff may periodically scan the network to look for
+				signs of the above software and ensure the integrity of the network. If prohibited software
+				is discovered, the user will be contacted and asked to comply with this policy. 
+			<br><br>
+				If an employee suspects a device has been compromised or infected by a virus or
+				malware not removed by antivirus or anti-malware software or suspects unauthorized
+				access or tampering with a device, he/she should immediately stop using the device and
+				call the Technology Helpdesk or contact a designated support person. 
+			<br>
+ 	  	</p>
+         <p><b >Access Control to End-user Devices</b>
+         		<br><br>
+         		It is the responsibility of each employee to ensure that all technology devices are
+				accessed only by authorized individuals. Each employee must ensure that all technology
+				devices for which he/she is responsible comply with all security policies, guidelines, and
+				procedures. 
+   				<br><br>
+         		All end-user devices must be password protected where technically feasible.
+   				<br><br>
+         		Employees must use strong passwords that conform to the Password Policy. Certain high
+				risk data, including Social Security Numbers, cannot be stored electronically unless an
+				exemption to the Social Security Number Elimination/Usage Policy is granted by
+				Information Technology Services and campus-approved encryption software is utilized
+				for storing the high risk data. See the links in the Related Information section for the
+				referenced policies.
+         		<br><br>
+         </p>
+         <p><b>Domain Membership</b>
+         	<br><br>
+         		All Windows devices must be a member of the Educational establishment Active Directory domain unless not
+				technically feasible. Exceptions must be annually approved by the Assistant Vice
+				Chancellor for IT.
+			<br><br>
+         </p>
+         <p><b>Patching/Updating</b>
+         <br><br>
+         		All networked devices must have a device management program where technically
+				feasible that handles patching and upgrading of software
+			<br><br></p>
+         <p><b>Backups</b>
+                  	<br><br>
+         		If data is stored on a local device rather than a networked file server, the user must utilize
+				a backup solution for the local device approved by Information Technology Services.
+			<br><br>
+		</p>
+         <p><b>Destruction </b>
+         		<br><br>
+    		     Employees are required to delete data from devices when the data is clearly no longer
+				needed or is no longer useful. Before deleting data, employees must ensure that removal
+				complies with record retention schedules and that the data is not part of a legal records
+				hold process. Record retention schedules are provided by the Division of Business &
+				Finance.
+				<br><br>
+				Media, including paper, CDs, DVDs, etc., containing confidential information must be
+				shredded for disposal. 
+				<br><br>
+				High risk data must be properly removed from hardware devices prior to disposal of the
+				device. 
+				<br><br>
+			</p>
+         <p><b>Remote Access/Network Connectivity</b>
+<br><br>
+Remote users must comply with the Educational establishment Network Services Policy.
+<br><br>
+Establishing local area networks or connections to existing internal networks requires
+consultation with Information Technology Services to ensure that unauthorized access is
+not allowed.
+<br><br>
+Only Information Technology Services may assign an IP address to a device. 
+
+          </p>
+         <p><b>Multifunctional Devices </b>
+         	<br><br>
+				A multifunctional device (MFD) is an office machine that incorporates the functionality
+				of multiple devices into one piece of equipment. It is typically a combination of printer,
+				copier, fax, and scanner. An MFD must not be used to print, copy, fax, or scan high risk
+				data unless the device is configured securely. See the Guidelines for Multifunctional
+				Devices on the Network in the Related Information section for configuration
+				requirements. 
+				<br><br>
+         </p>
+         <p><b>Physical Security</b>
+         	<br><br>
+				Each employee is responsible for the physical security of all devices, including mobile
+				devices, assigned to the employee. All devices assigned to an employee will be stored in
+				Firefly Objects on Loan.
+				<br><br>
+				Mobile digital storage media cannot be used to store high risk data unless the information
+				is encrypted. When not in use by authorized employees, mobile digital storage media
+				must be locked in secure enclosures, such as a locked file cabinet or a locked furniture
+				drawer.
+				<br><br>
+				Mission critical applications and any application utilizing high risk data must be hosted
+				on servers in the Information Technology Services Data Center or an NU Data Center. 
+				<br><br>
+         </p>
+         <p><b>Enforcement</b>
+         	<br><br>
+			This policy is enforced by the Information Technology Services Security Team in
+			coordination with Human Resources (staff) and/or Academic Affairs (Faculty). Failure to
+			comply with this policy may result in disciplinary actions. 
+			<br><br>
+         </p>
+    </div>
+    <div class="w3-twothird w3-container>
+      <h1 class="w3-text-teal">Reason	for	Policy</h1>
+         <p>
+         	<br>
+			Administrative and academic business at Educational establishment require end-user devices, including, but
+			not limited to, desktop devices, mobile devices, and shared devices, such as printers and
+			multifunction devices. Protection of these devices and the information handled by them is
+			essential to conducting business at Educational establishment.  
+			<br><br>
+         </p>
+    </div>
+  
+  </div>
+  <div class="w3-twothird w3-container"  >
+      <h1 class="w3-text-teal">Definitions</h1>
+      		<br><br>
+      		High Risk Data is data that must be protected by law or regulation. Data is classified as
+			High Risk if Educational establishment is required to self-report to the government and/or provide notice to
+			the individual if the data is accessed inappropriately. The loss of confidentiality,
+			integrity, or availability of High Risk Data could have a significant adverse impact on the
+			mission, safety, finances, or reputation of the Educational establishment
+      		<br><br>
+      		Employee records refers to all information, records, and documents pertaining to any
+			person who is an applicant or nominee for any establishment personnel position, regardless
+			of whether any such person is ever actually employed by the establishment, and all
+			information, records, and documents pertaining to any person employed by the
+			establishment. Student records refers to all information and documents of academic,
+			demographic, or financial data pertaining to one student or to many students in a single
+			record, on lists, or in aggregated data format. 
+      		<br><br>
+      		Employee refers to faculty, staff, students, independent contractors and other persons
+			whose conduct in the performance of work at Educational establishment is under the direct control of Educational establishment,
+			whether or not they are paid by Educational establishment. 
+      		<br><br>
+      		End-user Device is a device used by a member of the workforce to accomplish access to
+			information technology resources, including PCs, laptops, printers, and cell phones. 
+      		<br><br>
+      		Local Area Networks (LANs) include the use of routers, switches and mini-hubs in the
+			production environment and consist of a computer communications system limited to no
+			more than a few miles using high-speed connections. 
+      		<br><br>
+      		Multifunctional device (MFD) is an office machine that incorporates the functionality of
+			multiple devices into one piece of equipment. It is typically a combination of printer,
+			copier, fax, and scanner
+      		<br><br>
+      		Network is defined to be all Educational establishment owned or managed internal infrastructure for
+			converged services, including but not limited to, data, video and voice, to facilitate
+			resource sharing and communication. 
+      		<br><br>
+
+    </div>
+  
+  </div>
+
+
+
+<!-- END MAIN -->
+</div>
+
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+    if (mySidebar.style.display === 'block') {
+        mySidebar.style.display = 'none';
+        overlayBg.style.display = "none";
+    } else {
+        mySidebar.style.display = 'block';
+        overlayBg.style.display = "block";
+    }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+    overlayBg.style.display = "none";
+}
+</script>
+
+</body>
+</html>
